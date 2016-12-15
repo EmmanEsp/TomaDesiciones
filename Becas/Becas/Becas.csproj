@@ -61,6 +61,24 @@
     <Compile Include="Test\AplicarForm.Designer.cs">
       <DependentUpon>AplicarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\EconomicoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\EconomicoForm.Designer.cs">
+      <DependentUpon>EconomicoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\EscolarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\EscolarForm.Designer.cs">
+      <DependentUpon>EscolarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\SocialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\SocialForm.Designer.cs">
+      <DependentUpon>SocialForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +93,15 @@
     </Compile>
     <EmbeddedResource Include="Test\AplicarForm.resx">
       <DependentUpon>AplicarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\EconomicoForm.resx">
+      <DependentUpon>EconomicoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\EscolarForm.resx">
+      <DependentUpon>EscolarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\SocialForm.resx">
+      <DependentUpon>SocialForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
