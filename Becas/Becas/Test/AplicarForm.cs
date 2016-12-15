@@ -7,20 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Becas.Base_de_Datos;
 
-namespace Becas
+namespace Becas.Test
 {
-    public partial class PrincipalForm : Form
+    public partial class AplicarForm : Form
     {
-        public PrincipalForm()
+        public AplicarForm()
         {
             InitializeComponent();
-        }
-
-        private void aplicarButton_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
