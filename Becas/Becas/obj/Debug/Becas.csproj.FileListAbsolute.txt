@@ -19,3 +19,4 @@ C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\De
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.PrincipalForm.resources
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Properties.Resources.resources
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache
