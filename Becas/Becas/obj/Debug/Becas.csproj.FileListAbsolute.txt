@@ -12,3 +12,10 @@ C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\MySql.
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\Debug\Becas.exe.config
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.exe
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.pdb
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\Debug\Becas.exe
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\Debug\Becas.pdb
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\Debug\MySql.Data.dll
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\bin\Debug\MySql.Data.xml
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.PrincipalForm.resources
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Properties.Resources.resources
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache

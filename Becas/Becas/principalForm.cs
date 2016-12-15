@@ -11,9 +11,9 @@ using Becas.Base_de_Datos;
 
 namespace Becas
 {
-    public partial class principalForm : Form
+    public partial class PrincipalForm : Form
     {
-        public principalForm()
+        public PrincipalForm()
         {
             InitializeComponent();
         }

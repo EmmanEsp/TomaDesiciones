@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Becas.Base_de_Datos
 {
-    public static class DbConnection
+    public static class DatabaseConnection
     {
         private static string connectionString = "server=localhost; uid=root; pwd=; database=becas;";
 
