@@ -62,7 +62,7 @@
             // 
             // aplicarButton
             // 
-            this.aplicarButton.Location = new System.Drawing.Point(300, 78);
+            this.aplicarButton.Location = new System.Drawing.Point(388, 153);
             this.aplicarButton.Name = "aplicarButton";
             this.aplicarButton.Size = new System.Drawing.Size(136, 80);
             this.aplicarButton.TabIndex = 1;
