@@ -79,6 +79,12 @@
     <Compile Include="Test\SocialForm.Designer.cs">
       <DependentUpon>SocialForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistrarAlumnoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarAlumnoForm.Designer.cs">
+      <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test\SocialForm.resx">
       <DependentUpon>SocialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarAlumnoForm.resx">
+      <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
