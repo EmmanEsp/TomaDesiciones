@@ -34,7 +34,7 @@
             this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,14 +80,12 @@
             this.button2.Text = "Copete se la come";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // maskedTextBox1
             // 
-            this.button3.Location = new System.Drawing.Point(175, 61);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 62);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Copete sera papa";
-            this.button3.UseVisualStyleBackColor = true;
+            this.maskedTextBox1.Location = new System.Drawing.Point(414, 72);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(119, 20);
+            this.maskedTextBox1.TabIndex = 3;
             // 
             // PrincipalForm
             // 
@@ -96,7 +94,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(768, 505);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
@@ -118,7 +116,7 @@
         private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
 
