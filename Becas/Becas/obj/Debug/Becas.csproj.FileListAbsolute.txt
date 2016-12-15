@@ -1,0 +1,11 @@
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\Becas.exe.config
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\Becas.exe
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\Becas.pdb
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.principalForm.resources
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.Properties.Resources.resources
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.exe
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\obj\Debug\Becas.pdb
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\MySql.Data.dll
+C:\Users\Tony\Documents\Visual Studio 2017\Projects\Becas\Becas\bin\Debug\MySql.Data.xml
