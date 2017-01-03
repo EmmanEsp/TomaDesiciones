@@ -16,5 +16,10 @@ namespace Becas
         {
             InitializeComponent();
         }
+
+        private void RegistrarAlumnoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
