@@ -39,3 +39,4 @@ C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Test.SocialForm.resourc
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.exe
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.pdb
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources

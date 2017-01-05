@@ -74,14 +74,14 @@
             this.apellidomaternoTextBox.Location = new System.Drawing.Point(116, 84);
             this.apellidomaternoTextBox.Name = "apellidomaternoTextBox";
             this.apellidomaternoTextBox.Size = new System.Drawing.Size(260, 20);
-            this.apellidomaternoTextBox.TabIndex = 2;
+            this.apellidomaternoTextBox.TabIndex = 3;
             // 
             // apellidopaternoTextBox
             // 
             this.apellidopaternoTextBox.Location = new System.Drawing.Point(116, 58);
             this.apellidopaternoTextBox.Name = "apellidopaternoTextBox";
             this.apellidopaternoTextBox.Size = new System.Drawing.Size(260, 20);
-            this.apellidopaternoTextBox.TabIndex = 3;
+            this.apellidopaternoTextBox.TabIndex = 2;
             // 
             // label2
             // 
@@ -115,7 +115,7 @@
             this.curpTextBox.Location = new System.Drawing.Point(116, 110);
             this.curpTextBox.Name = "curpTextBox";
             this.curpTextBox.Size = new System.Drawing.Size(200, 20);
-            this.curpTextBox.TabIndex = 7;
+            this.curpTextBox.TabIndex = 4;
             // 
             // masculinoRadioButton
             // 
@@ -123,7 +123,7 @@
             this.masculinoRadioButton.Location = new System.Drawing.Point(116, 145);
             this.masculinoRadioButton.Name = "masculinoRadioButton";
             this.masculinoRadioButton.Size = new System.Drawing.Size(73, 17);
-            this.masculinoRadioButton.TabIndex = 8;
+            this.masculinoRadioButton.TabIndex = 5;
             this.masculinoRadioButton.TabStop = true;
             this.masculinoRadioButton.Text = "Masculino";
             this.masculinoRadioButton.UseVisualStyleBackColor = true;
@@ -134,7 +134,7 @@
             this.femeninoRadioButton.Location = new System.Drawing.Point(207, 145);
             this.femeninoRadioButton.Name = "femeninoRadioButton";
             this.femeninoRadioButton.Size = new System.Drawing.Size(71, 17);
-            this.femeninoRadioButton.TabIndex = 9;
+            this.femeninoRadioButton.TabIndex = 6;
             this.femeninoRadioButton.TabStop = true;
             this.femeninoRadioButton.Text = "Femenino";
             this.femeninoRadioButton.UseVisualStyleBackColor = true;
@@ -153,14 +153,14 @@
             this.fechanacDateTimePicker.Location = new System.Drawing.Point(116, 178);
             this.fechanacDateTimePicker.Name = "fechanacDateTimePicker";
             this.fechanacDateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.fechanacDateTimePicker.TabIndex = 11;
+            this.fechanacDateTimePicker.TabIndex = 7;
             // 
             // emailTextBox
             // 
             this.emailTextBox.Location = new System.Drawing.Point(442, 32);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(230, 20);
-            this.emailTextBox.TabIndex = 12;
+            this.emailTextBox.TabIndex = 8;
             // 
             // label1
             // 
@@ -194,21 +194,21 @@
             this.telefonoTextBox.Location = new System.Drawing.Point(442, 55);
             this.telefonoTextBox.Name = "telefonoTextBox";
             this.telefonoTextBox.Size = new System.Drawing.Size(230, 20);
-            this.telefonoTextBox.TabIndex = 15;
+            this.telefonoTextBox.TabIndex = 9;
             // 
             // calleTextBox
             // 
             this.calleTextBox.Location = new System.Drawing.Point(444, 103);
             this.calleTextBox.Name = "calleTextBox";
             this.calleTextBox.Size = new System.Drawing.Size(228, 20);
-            this.calleTextBox.TabIndex = 16;
+            this.calleTextBox.TabIndex = 10;
             // 
             // noexteriorTextBox
             // 
             this.noexteriorTextBox.Location = new System.Drawing.Point(444, 129);
             this.noexteriorTextBox.Name = "noexteriorTextBox";
             this.noexteriorTextBox.Size = new System.Drawing.Size(76, 20);
-            this.noexteriorTextBox.TabIndex = 17;
+            this.noexteriorTextBox.TabIndex = 11;
             // 
             // label8
             // 
@@ -242,7 +242,7 @@
             this.coloniaTextBox.Location = new System.Drawing.Point(444, 155);
             this.coloniaTextBox.Name = "coloniaTextBox";
             this.coloniaTextBox.Size = new System.Drawing.Size(228, 20);
-            this.coloniaTextBox.TabIndex = 22;
+            this.coloniaTextBox.TabIndex = 13;
             // 
             // label11
             // 
@@ -258,7 +258,7 @@
             this.cpTextBox.Location = new System.Drawing.Point(546, 181);
             this.cpTextBox.Name = "cpTextBox";
             this.cpTextBox.Size = new System.Drawing.Size(126, 20);
-            this.cpTextBox.TabIndex = 24;
+            this.cpTextBox.TabIndex = 14;
             // 
             // label12
             // 
@@ -274,7 +274,7 @@
             this.noInteriorTextBox.Location = new System.Drawing.Point(596, 129);
             this.noInteriorTextBox.Name = "noInteriorTextBox";
             this.noInteriorTextBox.Size = new System.Drawing.Size(76, 20);
-            this.noInteriorTextBox.TabIndex = 26;
+            this.noInteriorTextBox.TabIndex = 12;
             // 
             // menuStrip1
             // 
@@ -284,7 +284,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(698, 24);
-            this.menuStrip1.TabIndex = 27;
+            this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
@@ -300,6 +300,7 @@
             this.regresarToolStripMenuItem.Name = "regresarToolStripMenuItem";
             this.regresarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.regresarToolStripMenuItem.Text = "Regresar";
+            this.regresarToolStripMenuItem.Click += new System.EventHandler(this.regresarToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 

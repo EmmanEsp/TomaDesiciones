@@ -21,5 +21,10 @@ namespace Becas
         {
 
         }
+
+        private void regresarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

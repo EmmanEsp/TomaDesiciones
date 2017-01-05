@@ -22,5 +22,11 @@ namespace Becas
         {
 
         }
+
+        private void registrarAlumnoButton_Click(object sender, EventArgs e)
+        {
+            RegistrarAlumnoForm rgal = new RegistrarAlumnoForm();
+            rgal.ShowDialog();
+        }
     }
 }

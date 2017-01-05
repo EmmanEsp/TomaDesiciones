@@ -32,7 +32,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.registrarAlumnoButton = new System.Windows.Forms.Button();
             this.aplicarButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -61,23 +61,24 @@
             this.baseDeDatosToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.baseDeDatosToolStripMenuItem.Text = "Base de datos";
             // 
-            // button1
+            // registrarAlumnoButton
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(29, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 78);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "                Registrar               Alumno";
-            this.button1.UseVisualStyleBackColor = true;
+            this.registrarAlumnoButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarAlumnoButton.Image = ((System.Drawing.Image)(resources.GetObject("registrarAlumnoButton.Image")));
+            this.registrarAlumnoButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.registrarAlumnoButton.Location = new System.Drawing.Point(29, 90);
+            this.registrarAlumnoButton.Name = "registrarAlumnoButton";
+            this.registrarAlumnoButton.Size = new System.Drawing.Size(180, 78);
+            this.registrarAlumnoButton.TabIndex = 1;
+            this.registrarAlumnoButton.Text = "                Registrar               Alumno";
+            this.registrarAlumnoButton.UseVisualStyleBackColor = true;
+            this.registrarAlumnoButton.Click += new System.EventHandler(this.registrarAlumnoButton_Click);
             // 
             // aplicarButton
             // 
-            this.aplicarButton.Location = new System.Drawing.Point(388, 153);
+            this.aplicarButton.Location = new System.Drawing.Point(29, 212);
             this.aplicarButton.Name = "aplicarButton";
-            this.aplicarButton.Size = new System.Drawing.Size(136, 80);
+            this.aplicarButton.Size = new System.Drawing.Size(180, 80);
             this.aplicarButton.TabIndex = 1;
             this.aplicarButton.Text = "Aplicar beca";
             this.aplicarButton.UseVisualStyleBackColor = true;
@@ -90,12 +91,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(768, 505);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.registrarAlumnoButton);
             this.Controls.Add(this.aplicarButton);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "PrincipalForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Becas";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -109,7 +111,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button registrarAlumnoButton;
         private System.Windows.Forms.Button aplicarButton;
     }
 }
