@@ -1,5 +1,4 @@
-﻿using iTextSharp.text;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +15,6 @@ namespace Becas.Test
         public EconomicoForm()
         {
             InitializeComponent();
-            Document document = new Document();
         }
     }
 }

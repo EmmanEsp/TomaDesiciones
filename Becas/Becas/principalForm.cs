@@ -28,5 +28,10 @@ namespace Becas
             RegistrarAlumnoForm rgal = new RegistrarAlumnoForm();
             rgal.ShowDialog();
         }
+
+        private void PrincipalForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

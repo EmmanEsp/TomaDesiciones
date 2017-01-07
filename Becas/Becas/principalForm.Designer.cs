@@ -30,36 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrincipalForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.sistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.baseDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarAlumnoButton = new System.Windows.Forms.Button();
             this.aplicarButton = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sistemaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(768, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // sistemaToolStripMenuItem
-            // 
-            this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.baseDeDatosToolStripMenuItem});
-            this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
-            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.sistemaToolStripMenuItem.Text = "Sistema";
-            // 
-            // baseDeDatosToolStripMenuItem
-            // 
-            this.baseDeDatosToolStripMenuItem.Name = "baseDeDatosToolStripMenuItem";
-            this.baseDeDatosToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
-            this.baseDeDatosToolStripMenuItem.Text = "Base de datos";
             // 
             // registrarAlumnoButton
             // 
@@ -99,8 +80,7 @@
             this.Name = "PrincipalForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Becas";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Load += new System.EventHandler(this.PrincipalForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,8 +89,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem sistemaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem baseDeDatosToolStripMenuItem;
         private System.Windows.Forms.Button registrarAlumnoButton;
         private System.Windows.Forms.Button aplicarButton;
     }

@@ -40,3 +40,4 @@ C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.exe
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.pdb
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
