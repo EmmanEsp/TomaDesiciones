@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CRUD\Create.cs" />
+    <Compile Include="CRUD\Delete.cs" />
+    <Compile Include="CRUD\Read.cs" />
+    <Compile Include="CRUD\Update.cs" />
     <Compile Include="Database\DatabaseConnection.cs" />
     <Compile Include="PrincipalForm.cs">
       <SubType>Form</SubType>
@@ -56,35 +59,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Registro\RegistrarAlumnoForm.cs">
+    <Compile Include="Form\Alumno.cs" />
+    <Compile Include="Form\RegistrarAlumnoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registro\RegistrarAlumnoForm.Designer.cs">
+    <Compile Include="Form\RegistrarAlumnoForm.Designer.cs">
       <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test\AplicarForm.cs">
+    <Compile Include="Form\AplicarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Test\AplicarForm.Designer.cs">
+    <Compile Include="Form\AplicarForm.Designer.cs">
       <DependentUpon>AplicarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test\EconomicoForm.cs">
+    <Compile Include="Form\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Test\EconomicoForm.Designer.cs">
-      <DependentUpon>EconomicoForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Test\EscolarForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test\EscolarForm.Designer.cs">
-      <DependentUpon>EscolarForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Test\SocialForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test\SocialForm.Designer.cs">
-      <DependentUpon>SocialForm.cs</DependentUpon>
+    <Compile Include="Form\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
@@ -98,20 +90,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Registro\RegistrarAlumnoForm.resx">
+    <EmbeddedResource Include="Form\RegistrarAlumnoForm.resx">
       <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Test\AplicarForm.resx">
+    <EmbeddedResource Include="Form\AplicarForm.resx">
       <DependentUpon>AplicarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Test\EconomicoForm.resx">
-      <DependentUpon>EconomicoForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test\EscolarForm.resx">
-      <DependentUpon>EscolarForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Test\SocialForm.resx">
-      <DependentUpon>SocialForm.cs</DependentUpon>
+    <EmbeddedResource Include="Form\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

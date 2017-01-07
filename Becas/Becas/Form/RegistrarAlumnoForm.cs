@@ -11,7 +11,7 @@ using Becas.CRUD;
 
 namespace Becas
 {
-    public partial class RegistrarAlumnoForm : Form
+    public partial class RegistrarAlumnoForm : System.Windows.Forms.Form
     {
         List<string> columnas;
         List<string> valores;

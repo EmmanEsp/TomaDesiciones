@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Becas.Base_de_Datos;
+using Becas.Database;
+using Becas.Form;
 
 namespace Becas
 {
-    public partial class PrincipalForm : Form
+    public partial class PrincipalForm : System.Windows.Forms.Form
     {
         public PrincipalForm()
         {
@@ -20,7 +21,8 @@ namespace Becas
 
         private void aplicarButton_Click(object sender, EventArgs e)
         {
-
+            AplicarForm apl = new AplicarForm();
+            apl.ShowDialog();
         }
 
         private void registrarAlumnoButton_Click(object sender, EventArgs e)

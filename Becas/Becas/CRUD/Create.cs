@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Becas.Base_de_Datos;
+using Becas.Database;
 
 namespace Becas.CRUD
 {
