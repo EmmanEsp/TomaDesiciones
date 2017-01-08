@@ -41,22 +41,25 @@ namespace Becas
 
         private bool validarControles()
         {
+            errorProvider.Clear();
+            bool continuar = true;
             foreach (Control control in controlsPanel.Controls)
             {
                 if (control is TextBox & control.Text == string.Empty)
                 {
                     control.Select();
-                    MessageBox.Show("Favor de llenar el campo.");
-                    return false;
+                    errorProvider.SetError(control, "Favor de llenar el campo");
+                    continuar=false;
                 }
                 if (control is ComboBox & control.Text == string.Empty)
                 {
                     control.Select();
-                    MessageBox.Show("Favor de seleccionar un elemento.");
-                    return false;
+                    errorProvider.SetError(control, "Favor de seleccionar un elemento");
+                    continuar = false;
                 }
             }
-            return true;
+            if (continuar) { return true;}
+            else { return false; }
         }
 
         private void regresarToolStripMenuItem_Click(object sender, EventArgs e)

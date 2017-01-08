@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.regresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,8 +60,10 @@
             this.nombreTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.limpiarButton = new System.Windows.Forms.Button();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.menuStrip1.SuspendLayout();
             this.controlsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -97,7 +100,7 @@
             // 
             // registrarButton
             // 
-            this.registrarButton.Location = new System.Drawing.Point(574, 233);
+            this.registrarButton.Location = new System.Drawing.Point(589, 233);
             this.registrarButton.Name = "registrarButton";
             this.registrarButton.Size = new System.Drawing.Size(98, 43);
             this.registrarButton.TabIndex = 28;
@@ -334,32 +337,38 @@
             // 
             // limpiarButton
             // 
-            this.limpiarButton.Location = new System.Drawing.Point(426, 239);
+            this.limpiarButton.Location = new System.Drawing.Point(475, 233);
             this.limpiarButton.Name = "limpiarButton";
-            this.limpiarButton.Size = new System.Drawing.Size(87, 31);
+            this.limpiarButton.Size = new System.Drawing.Size(108, 43);
             this.limpiarButton.TabIndex = 30;
             this.limpiarButton.Text = "Limpiar";
             this.limpiarButton.UseVisualStyleBackColor = true;
             this.limpiarButton.Click += new System.EventHandler(this.limpiarButton_Click);
+            // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
             // 
             // RegistrarAlumnoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(698, 334);
+            this.ClientSize = new System.Drawing.Size(698, 310);
             this.Controls.Add(this.limpiarButton);
             this.Controls.Add(this.controlsPanel);
             this.Controls.Add(this.registrarButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "RegistrarAlumnoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistrarAlumnoForm";
             this.Load += new System.EventHandler(this.RegistrarAlumnoForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.controlsPanel.ResumeLayout(false);
             this.controlsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -397,5 +406,6 @@
         private System.Windows.Forms.TextBox nombreTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button limpiarButton;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }
