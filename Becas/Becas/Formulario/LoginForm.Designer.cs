@@ -46,7 +46,7 @@
             this.loginButton.Location = new System.Drawing.Point(252, 88);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(93, 39);
-            this.loginButton.TabIndex = 3;
+            this.loginButton.TabIndex = 2;
             this.loginButton.Text = "Entrar";
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
@@ -56,7 +56,7 @@
             this.registrarButton.Location = new System.Drawing.Point(153, 88);
             this.registrarButton.Name = "registrarButton";
             this.registrarButton.Size = new System.Drawing.Size(93, 39);
-            this.registrarButton.TabIndex = 4;
+            this.registrarButton.TabIndex = 3;
             this.registrarButton.Text = "Registrarse";
             this.registrarButton.UseVisualStyleBackColor = true;
             // 
@@ -66,7 +66,7 @@
             this.userTextBox.MaxLength = 13;
             this.userTextBox.Name = "userTextBox";
             this.userTextBox.Size = new System.Drawing.Size(229, 20);
-            this.userTextBox.TabIndex = 1;
+            this.userTextBox.TabIndex = 0;
             // 
             // passwordTextBox
             // 
@@ -75,7 +75,7 @@
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(229, 20);
-            this.passwordTextBox.TabIndex = 2;
+            this.passwordTextBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -108,7 +108,7 @@
             this.controlsPanel.Location = new System.Drawing.Point(12, 12);
             this.controlsPanel.Name = "controlsPanel";
             this.controlsPanel.Size = new System.Drawing.Size(364, 70);
-            this.controlsPanel.TabIndex = 6;
+            this.controlsPanel.TabIndex = 0;
             // 
             // LoginForm
             // 

@@ -38,9 +38,9 @@ CREATE TABLE `alumno` (
   `genero` varchar(1) NOT NULL,
   `email` varchar(30) NOT NULL,
   `telefono` varchar(10) NOT NULL,
-  `password` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL DEFAULT '1234',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -49,7 +49,7 @@ CREATE TABLE `alumno` (
 
 LOCK TABLES `alumno` WRITE;
 /*!40000 ALTER TABLE `alumno` DISABLE KEYS */;
-INSERT INTO `alumno` VALUES (1,'Jose Emmanuel','Espinoza','Avilez','ASD312QWE6123','Guasave',1776,0,'Adolfo Lopez Mateos',81238,'2','emmanesp13@gmail.com','6688205850','1234'),(2,'Randolfo Antonio','Diaz de Leon','Leon','1234567890123','Una callesita',1234,88456,'Allalejo',8874,'1','dd@algo.com','6689181','1234');
+INSERT INTO `alumno` VALUES (1,'Jose Emmanuel','Espinoza','Avilez','ASD312QWE6123','Guasave',1776,0,'Adolfo Lopez Mateos',81238,'2','emmanesp13@gmail.com','6688205850','1234'),(2,'Randolfo Antonio','Diaz de Leon','Leon','1234567890123','Una callesita',1234,88456,'Allalejo',8874,'1','dd@algo.com','6689181','1234'),(3,'Randolfo Antonio2','Diaz de Leon2','Leon','1234567890124','Una callesita',1234,88456,'Allalejo',8874,'1','dd@algo.com','6689181','1234'),(4,'Luisa Fernanda','Manzanarez','Gamez','FERNANDAMANZA','No se',1234,123,'San Fernando',81271,'2','fernanditaloca@outlook.com','123451233','1234');
 /*!40000 ALTER TABLE `alumno` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -134,4 +134,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-01-09  3:23:59
+-- Dump completed on 2017-01-09  7:15:02

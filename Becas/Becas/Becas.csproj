@@ -57,6 +57,12 @@
     <Compile Include="Formulario\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\PerfilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\PerfilForm.Designer.cs">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\Usuario.cs" />
     <Compile Include="PrincipalForm.cs">
       <SubType>Form</SubType>
@@ -87,6 +93,9 @@
     </Compile>
     <EmbeddedResource Include="Formulario\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\PerfilForm.resx">
+      <DependentUpon>PerfilForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>

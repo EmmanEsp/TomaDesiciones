@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Becas.Formulario
 {
-    class Alumno
+    public class Alumno
     {
         #region private shit
+        private string id;
         private string nombre;
         private string apellidoPaterno;
         private string apellidoMaterno;
@@ -194,6 +195,19 @@ namespace Becas.Formulario
             }
         }
 
+        public string Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
+
         #endregion
 
         public void setNombre(string value)
@@ -203,19 +217,20 @@ namespace Becas.Formulario
 
         public void setValues(List<string> values)
         {
-            Nombre = values[0];
-            ApellidoPaterno = values[1];
-            ApellidoMaterno = values[2];
-            Curp = values[3];
-            DireccionCalle = values[4];
-            DireccionNoExt = values[5];
-            DireccionNoInt = values[6];
-            DireccionColonia = values[7];
-            DireccionCP = values[8];
-            Genero = values[9];
-            Email = values[10];
-            Telefono = values[11];
-            Password = values[12];
+            Id = values[0];
+            Nombre = values[1];
+            ApellidoPaterno = values[2];
+            ApellidoMaterno = values[3];
+            Curp = values[4];
+            DireccionCalle = values[5];
+            DireccionNoExt = values[6];
+            DireccionNoInt = values[7];
+            DireccionColonia = values[8];
+            DireccionCP = values[9];
+            Genero = values[10];
+            Email = values[11];
+            Telefono = values[12];
+            Password = values[13];
             
         }
 

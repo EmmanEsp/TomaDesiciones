@@ -37,4 +37,5 @@ C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.exe
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.pdb
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Formulario.LoginForm.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Formulario.PerfilForm.resources
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache

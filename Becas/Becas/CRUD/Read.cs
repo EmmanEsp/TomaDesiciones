@@ -15,7 +15,7 @@ namespace Becas.CRUD
         {
             try
             {
-                bool id = true;
+                bool id = false;
                 List<string> entidad = new List<string>();
                 string query = "SELECT * FROM " + tabla + " WHERE id = " + clave;
                 MySqlCommand command = new MySqlCommand(query, openConnection());
@@ -114,11 +114,10 @@ namespace Becas.CRUD
         }
 
         public List<string> getEntidadw2Parameters(string tabla, string par1, string value1,
-                                                   string par2, string value2)
+                                                   string par2, string value2, bool id)
         {
             try
             {
-                bool id = true;
                 List<string> entidad = new List<string>();
                 string query =
                     "SELECT * FROM " + tabla + " WHERE " + par1 + "=@value1 AND " + par2 + "=@value2";

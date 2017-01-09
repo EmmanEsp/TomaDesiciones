@@ -29,13 +29,13 @@ namespace Becas.Formulario
                     if (userTextBox.TextLength == 13)
                     {
                         items = read.getEntidadw2Parameters("alumno", "curp", userTextBox.Text,
-                                                                        "password", passwordTextBox.Text);
+                                                                        "password", passwordTextBox.Text, false);
 
                     }
                     else
                     {
                         items = read.getEntidadw2Parameters("usuario", "id", userTextBox.Text,
-                                                                        "password", passwordTextBox.Text);
+                                                                        "password", passwordTextBox.Text, false);
                     }
                     if (items == null)
                     {

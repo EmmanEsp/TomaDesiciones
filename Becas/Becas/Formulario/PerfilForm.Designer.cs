@@ -1,6 +1,6 @@
-﻿namespace Becas
+﻿namespace Becas.Formulario
 {
-    partial class RegistrarAlumnoForm
+    partial class PerfilForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.regresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registrarButton = new System.Windows.Forms.Button();
             this.controlsPanel = new System.Windows.Forms.Panel();
             this.generoComboBox = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -59,54 +54,28 @@
             this.apellidoMaternoTextBox = new System.Windows.Forms.TextBox();
             this.nombreTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.limpiarButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.actualizarInformaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informaciónPersonalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.regresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
-            this.menuStrip1.SuspendLayout();
+            this.label14 = new System.Windows.Forms.Label();
+            this.anteriorTextBox = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.confirmarTextBox = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.actualizarButton = new System.Windows.Forms.Button();
+            this.contraseñaPanel = new System.Windows.Forms.Panel();
             this.controlsPanel.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            this.contraseñaPanel.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.archivoToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(698, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // archivoToolStripMenuItem
-            // 
-            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.regresarToolStripMenuItem});
-            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // regresarToolStripMenuItem
-            // 
-            this.regresarToolStripMenuItem.Name = "regresarToolStripMenuItem";
-            this.regresarToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
-            this.regresarToolStripMenuItem.Text = "Regresar";
-            this.regresarToolStripMenuItem.Click += new System.EventHandler(this.regresarToolStripMenuItem_Click);
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
-            // registrarButton
-            // 
-            this.registrarButton.Location = new System.Drawing.Point(589, 233);
-            this.registrarButton.Name = "registrarButton";
-            this.registrarButton.Size = new System.Drawing.Size(98, 43);
-            this.registrarButton.TabIndex = 28;
-            this.registrarButton.Text = "Registrar";
-            this.registrarButton.UseVisualStyleBackColor = true;
-            this.registrarButton.Click += new System.EventHandler(this.registrarButton_Click);
             // 
             // controlsPanel
             // 
@@ -134,20 +103,21 @@
             this.controlsPanel.Controls.Add(this.apellidoMaternoTextBox);
             this.controlsPanel.Controls.Add(this.nombreTextBox);
             this.controlsPanel.Controls.Add(this.label1);
-            this.controlsPanel.Location = new System.Drawing.Point(0, 27);
+            this.controlsPanel.Location = new System.Drawing.Point(12, 52);
             this.controlsPanel.Name = "controlsPanel";
-            this.controlsPanel.Size = new System.Drawing.Size(698, 200);
-            this.controlsPanel.TabIndex = 29;
+            this.controlsPanel.Size = new System.Drawing.Size(698, 197);
+            this.controlsPanel.TabIndex = 30;
             // 
             // generoComboBox
             // 
+            this.generoComboBox.Enabled = false;
             this.generoComboBox.FormattingEnabled = true;
             this.generoComboBox.Items.AddRange(new object[] {
-            "Masculin",
+            "Masculino",
             "Femenino"});
             this.generoComboBox.Location = new System.Drawing.Point(109, 126);
             this.generoComboBox.Name = "generoComboBox";
-            this.generoComboBox.Size = new System.Drawing.Size(82, 21);
+            this.generoComboBox.Size = new System.Drawing.Size(108, 21);
             this.generoComboBox.TabIndex = 55;
             // 
             // label13
@@ -161,6 +131,7 @@
             // 
             // direccionNoIntTextBox
             // 
+            this.direccionNoIntTextBox.Enabled = false;
             this.direccionNoIntTextBox.Location = new System.Drawing.Point(589, 112);
             this.direccionNoIntTextBox.Name = "direccionNoIntTextBox";
             this.direccionNoIntTextBox.Size = new System.Drawing.Size(76, 20);
@@ -168,6 +139,7 @@
             // 
             // direccionCPTextBox
             // 
+            this.direccionCPTextBox.Enabled = false;
             this.direccionCPTextBox.Location = new System.Drawing.Point(539, 164);
             this.direccionCPTextBox.Name = "direccionCPTextBox";
             this.direccionCPTextBox.Size = new System.Drawing.Size(126, 20);
@@ -193,6 +165,7 @@
             // 
             // direccionColoniaTextBox
             // 
+            this.direccionColoniaTextBox.Enabled = false;
             this.direccionColoniaTextBox.Location = new System.Drawing.Point(437, 138);
             this.direccionColoniaTextBox.Name = "direccionColoniaTextBox";
             this.direccionColoniaTextBox.Size = new System.Drawing.Size(228, 20);
@@ -227,6 +200,7 @@
             // 
             // direccionNoExtTextBox
             // 
+            this.direccionNoExtTextBox.Enabled = false;
             this.direccionNoExtTextBox.Location = new System.Drawing.Point(437, 112);
             this.direccionNoExtTextBox.Name = "direccionNoExtTextBox";
             this.direccionNoExtTextBox.Size = new System.Drawing.Size(76, 20);
@@ -234,6 +208,7 @@
             // 
             // direccionCalleTextBox
             // 
+            this.direccionCalleTextBox.Enabled = false;
             this.direccionCalleTextBox.Location = new System.Drawing.Point(437, 86);
             this.direccionCalleTextBox.Name = "direccionCalleTextBox";
             this.direccionCalleTextBox.Size = new System.Drawing.Size(228, 20);
@@ -241,6 +216,7 @@
             // 
             // telefonoTextBox
             // 
+            this.telefonoTextBox.Enabled = false;
             this.telefonoTextBox.Location = new System.Drawing.Point(435, 38);
             this.telefonoTextBox.Name = "telefonoTextBox";
             this.telefonoTextBox.Size = new System.Drawing.Size(230, 20);
@@ -266,6 +242,7 @@
             // 
             // emailTextBox
             // 
+            this.emailTextBox.Enabled = false;
             this.emailTextBox.Location = new System.Drawing.Point(435, 15);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(230, 20);
@@ -273,6 +250,7 @@
             // 
             // curpTextBox
             // 
+            this.curpTextBox.Enabled = false;
             this.curpTextBox.Location = new System.Drawing.Point(109, 93);
             this.curpTextBox.Name = "curpTextBox";
             this.curpTextBox.Size = new System.Drawing.Size(200, 20);
@@ -307,6 +285,7 @@
             // 
             // apellidoPaternoTextBox
             // 
+            this.apellidoPaternoTextBox.Enabled = false;
             this.apellidoPaternoTextBox.Location = new System.Drawing.Point(109, 41);
             this.apellidoPaternoTextBox.Name = "apellidoPaternoTextBox";
             this.apellidoPaternoTextBox.Size = new System.Drawing.Size(260, 20);
@@ -314,6 +293,7 @@
             // 
             // apellidoMaternoTextBox
             // 
+            this.apellidoMaternoTextBox.Enabled = false;
             this.apellidoMaternoTextBox.Location = new System.Drawing.Point(109, 67);
             this.apellidoMaternoTextBox.Name = "apellidoMaternoTextBox";
             this.apellidoMaternoTextBox.Size = new System.Drawing.Size(260, 20);
@@ -321,6 +301,7 @@
             // 
             // nombreTextBox
             // 
+            this.nombreTextBox.Enabled = false;
             this.nombreTextBox.Location = new System.Drawing.Point(109, 18);
             this.nombreTextBox.Name = "nombreTextBox";
             this.nombreTextBox.Size = new System.Drawing.Size(260, 20);
@@ -335,51 +316,182 @@
             this.label1.TabIndex = 32;
             this.label1.Text = "Nombre";
             // 
-            // limpiarButton
+            // menuStrip1
             // 
-            this.limpiarButton.Location = new System.Drawing.Point(475, 233);
-            this.limpiarButton.Name = "limpiarButton";
-            this.limpiarButton.Size = new System.Drawing.Size(108, 43);
-            this.limpiarButton.TabIndex = 30;
-            this.limpiarButton.Text = "Limpiar";
-            this.limpiarButton.UseVisualStyleBackColor = true;
-            this.limpiarButton.Click += new System.EventHandler(this.limpiarButton_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(722, 24);
+            this.menuStrip1.TabIndex = 31;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // archivoToolStripMenuItem
+            // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.actualizarInformaciónToolStripMenuItem,
+            this.regresarToolStripMenuItem});
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // actualizarInformaciónToolStripMenuItem
+            // 
+            this.actualizarInformaciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.informaciónPersonalToolStripMenuItem,
+            this.modificarContraseñaToolStripMenuItem});
+            this.actualizarInformaciónToolStripMenuItem.Name = "actualizarInformaciónToolStripMenuItem";
+            this.actualizarInformaciónToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.actualizarInformaciónToolStripMenuItem.Text = "Actualizar Información";
+            // 
+            // informaciónPersonalToolStripMenuItem
+            // 
+            this.informaciónPersonalToolStripMenuItem.Name = "informaciónPersonalToolStripMenuItem";
+            this.informaciónPersonalToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.informaciónPersonalToolStripMenuItem.Text = "Información Personal";
+            this.informaciónPersonalToolStripMenuItem.Click += new System.EventHandler(this.informaciónPersonalToolStripMenuItem_Click);
+            // 
+            // modificarContraseñaToolStripMenuItem
+            // 
+            this.modificarContraseñaToolStripMenuItem.Name = "modificarContraseñaToolStripMenuItem";
+            this.modificarContraseñaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.modificarContraseñaToolStripMenuItem.Text = "Modificar Contraseña";
+            this.modificarContraseñaToolStripMenuItem.Click += new System.EventHandler(this.modificarContraseñaToolStripMenuItem_Click);
+            // 
+            // regresarToolStripMenuItem
+            // 
+            this.regresarToolStripMenuItem.Name = "regresarToolStripMenuItem";
+            this.regresarToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.regresarToolStripMenuItem.Text = "Regresar";
+            this.regresarToolStripMenuItem.Click += new System.EventHandler(this.regresarToolStripMenuItem_Click);
+            // 
+            // updateButton
+            // 
+            this.updateButton.Location = new System.Drawing.Point(587, 275);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(102, 39);
+            this.updateButton.TabIndex = 32;
+            this.updateButton.Text = "Actualizar";
+            this.updateButton.UseVisualStyleBackColor = true;
+            this.updateButton.Visible = false;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(269, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(227, 25);
+            this.label5.TabIndex = 33;
+            this.label5.Text = "DATOS DEL ALUMNO";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // errorProvider
             // 
             this.errorProvider.ContainerControl = this;
             // 
-            // RegistrarAlumnoForm
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(12, 11);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(103, 13);
+            this.label14.TabIndex = 34;
+            this.label14.Text = "Contraseña Anterior:";
+            // 
+            // anteriorTextBox
+            // 
+            this.anteriorTextBox.Location = new System.Drawing.Point(12, 30);
+            this.anteriorTextBox.Name = "anteriorTextBox";
+            this.anteriorTextBox.Size = new System.Drawing.Size(138, 20);
+            this.anteriorTextBox.TabIndex = 56;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(168, 11);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(42, 13);
+            this.label15.TabIndex = 57;
+            this.label15.Text = "Nueva:";
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.Location = new System.Drawing.Point(168, 30);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(138, 20);
+            this.passwordTextBox.TabIndex = 58;
+            // 
+            // confirmarTextBox
+            // 
+            this.confirmarTextBox.Location = new System.Drawing.Point(326, 30);
+            this.confirmarTextBox.Name = "confirmarTextBox";
+            this.confirmarTextBox.Size = new System.Drawing.Size(138, 20);
+            this.confirmarTextBox.TabIndex = 59;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(323, 11);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(54, 13);
+            this.label16.TabIndex = 60;
+            this.label16.Text = "Confirmar:";
+            // 
+            // actualizarButton
+            // 
+            this.actualizarButton.Location = new System.Drawing.Point(482, 275);
+            this.actualizarButton.Name = "actualizarButton";
+            this.actualizarButton.Size = new System.Drawing.Size(102, 39);
+            this.actualizarButton.TabIndex = 61;
+            this.actualizarButton.Text = "Actualizar Contraseña";
+            this.actualizarButton.UseVisualStyleBackColor = true;
+            this.actualizarButton.Visible = false;
+            // 
+            // contraseñaPanel
+            // 
+            this.contraseñaPanel.Controls.Add(this.passwordTextBox);
+            this.contraseñaPanel.Controls.Add(this.label14);
+            this.contraseñaPanel.Controls.Add(this.label16);
+            this.contraseñaPanel.Controls.Add(this.anteriorTextBox);
+            this.contraseñaPanel.Controls.Add(this.confirmarTextBox);
+            this.contraseñaPanel.Controls.Add(this.label15);
+            this.contraseñaPanel.Location = new System.Drawing.Point(12, 260);
+            this.contraseñaPanel.Name = "contraseñaPanel";
+            this.contraseñaPanel.Size = new System.Drawing.Size(467, 65);
+            this.contraseñaPanel.TabIndex = 62;
+            this.contraseñaPanel.Visible = false;
+            // 
+            // PerfilForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(698, 310);
-            this.Controls.Add(this.limpiarButton);
+            this.ClientSize = new System.Drawing.Size(722, 353);
+            this.Controls.Add(this.contraseñaPanel);
+            this.Controls.Add(this.actualizarButton);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.updateButton);
             this.Controls.Add(this.controlsPanel);
-            this.Controls.Add(this.registrarButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "RegistrarAlumnoForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RegistrarAlumnoForm";
-            this.Load += new System.EventHandler(this.RegistrarAlumnoForm_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Name = "PerfilForm";
+            this.Text = "PerfilForm";
+            this.Load += new System.EventHandler(this.PerfilForm_Load);
             this.controlsPanel.ResumeLayout(false);
             this.controlsPanel.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            this.contraseñaPanel.ResumeLayout(false);
+            this.contraseñaPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem regresarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
-        private System.Windows.Forms.Button registrarButton;
+
         private System.Windows.Forms.Panel controlsPanel;
         private System.Windows.Forms.ComboBox generoComboBox;
         private System.Windows.Forms.Label label13;
@@ -405,7 +517,22 @@
         private System.Windows.Forms.TextBox apellidoMaternoTextBox;
         private System.Windows.Forms.TextBox nombreTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button limpiarButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem regresarToolStripMenuItem;
+        private System.Windows.Forms.Button updateButton;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolStripMenuItem actualizarInformaciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem informaciónPersonalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem modificarContraseñaToolStripMenuItem;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.Panel contraseñaPanel;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox anteriorTextBox;
+        private System.Windows.Forms.TextBox confirmarTextBox;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button actualizarButton;
     }
 }

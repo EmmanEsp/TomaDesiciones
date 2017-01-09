@@ -44,5 +44,16 @@ namespace Becas
         {
 
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void perfilButton_Click(object sender, EventArgs e)
+        {
+            PerfilForm prfm = new PerfilForm(student);
+            prfm.ShowDialog();
+        }
     }
 }
