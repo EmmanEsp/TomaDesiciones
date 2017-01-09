@@ -20,20 +20,21 @@ C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\De
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Properties.Resources.resources
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache
 C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.AplicarForm.resources
+C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.TestForm.resources
 C:\Users\Tony\TomaDesiciones\Becas\Becas\bin\Debug\Becas.exe.config
 C:\Users\Tony\TomaDesiciones\Becas\Becas\bin\Debug\Becas.exe
 C:\Users\Tony\TomaDesiciones\Becas\Becas\bin\Debug\Becas.pdb
 C:\Users\Tony\TomaDesiciones\Becas\Becas\bin\Debug\MySql.Data.dll
 C:\Users\Tony\TomaDesiciones\Becas\Becas\bin\Debug\MySql.Data.xml
-C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.PrincipalForm.resources
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Properties.Resources.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.AplicarForm.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.TestForm.resources
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csproj.GenerateResource.Cache
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.exe
 C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.pdb
-C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
-C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.RegistrarAlumnoForm.resources
-C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.AplicarForm.resources
-C:\Users\Guillermo JM\Documents\Emmanuel\Mirsa\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.TestForm.resources
-C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.AplicarForm.resources
-C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Form.TestForm.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.Formulario.LoginForm.resources
+C:\Users\Tony\TomaDesiciones\Becas\Becas\obj\Debug\Becas.csprojResolveAssemblyReference.cache

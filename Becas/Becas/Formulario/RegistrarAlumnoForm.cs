@@ -37,6 +37,7 @@ namespace Becas
             columnas.Add("genero");
             columnas.Add("email");
             columnas.Add("telefono");
+            columnas.Add("password");
         }
 
         private bool validarControles()

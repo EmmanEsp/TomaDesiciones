@@ -8,15 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Becas.Database;
+using Becas.Formulario;
 using Becas.Form;
 
 namespace Becas
 {
     public partial class PrincipalForm : System.Windows.Forms.Form
     {
-        public PrincipalForm()
+        Alumno student = new Alumno();
+        Usuario user = new Usuario();
+        public PrincipalForm(List<string> userData)
         {
             InitializeComponent();
+            if (userData.Count > 3)
+            {
+                student.setValues(userData);
+            }
+            else{ user.setValues(userData); }
         }
 
         private void aplicarButton_Click(object sender, EventArgs e)
@@ -29,6 +37,7 @@ namespace Becas
         {
             RegistrarAlumnoForm rgal = new RegistrarAlumnoForm();
             rgal.ShowDialog();
+            
         }
 
         private void PrincipalForm_Load(object sender, EventArgs e)
