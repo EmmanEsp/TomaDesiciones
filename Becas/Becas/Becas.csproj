@@ -59,23 +59,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Form\Alumno.cs" />
-    <Compile Include="Form\RegistrarAlumnoForm.cs">
+    <Compile Include="Formulario\Alumno.cs" />
+    <Compile Include="Formulario\RegistrarAlumnoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\RegistrarAlumnoForm.Designer.cs">
+    <Compile Include="Formulario\RegistrarAlumnoForm.Designer.cs">
       <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\AplicarForm.cs">
+    <Compile Include="Formulario\AplicarForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\AplicarForm.Designer.cs">
+    <Compile Include="Formulario\AplicarForm.Designer.cs">
       <DependentUpon>AplicarForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\TestForm.cs">
+    <Compile Include="Formulario\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\TestForm.Designer.cs">
+    <Compile Include="Formulario\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="PrincipalForm.resx">
@@ -90,13 +90,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form\RegistrarAlumnoForm.resx">
+    <EmbeddedResource Include="Formulario\RegistrarAlumnoForm.resx">
       <DependentUpon>RegistrarAlumnoForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\AplicarForm.resx">
+    <EmbeddedResource Include="Formulario\AplicarForm.resx">
       <DependentUpon>AplicarForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\TestForm.resx">
+    <EmbeddedResource Include="Formulario\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
