@@ -1,4 +1,4 @@
-﻿namespace Becas.Form
+﻿namespace Becas.Formulario
 {
     partial class TestForm
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,15 +44,18 @@
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.controlsPanel = new System.Windows.Forms.Panel();
             this.finalizarButton = new System.Windows.Forms.Button();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.controlsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(25, 25);
+            this.label1.Location = new System.Drawing.Point(26, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 13);
             this.label1.TabIndex = 0;
@@ -60,7 +64,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(25, 89);
+            this.label2.Location = new System.Drawing.Point(26, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(180, 13);
             this.label2.TabIndex = 1;
@@ -69,7 +73,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 152);
+            this.label3.Location = new System.Drawing.Point(26, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(204, 13);
             this.label3.TabIndex = 2;
@@ -78,7 +82,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(25, 215);
+            this.label4.Location = new System.Drawing.Point(26, 203);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(296, 13);
             this.label4.TabIndex = 3;
@@ -87,7 +91,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 277);
+            this.label5.Location = new System.Drawing.Point(26, 267);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(164, 13);
             this.label5.TabIndex = 4;
@@ -96,7 +100,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 341);
+            this.label6.Location = new System.Drawing.Point(26, 331);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(99, 13);
             this.label6.TabIndex = 5;
@@ -105,7 +109,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(25, 404);
+            this.label7.Location = new System.Drawing.Point(26, 394);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(77, 13);
             this.label7.TabIndex = 6;
@@ -114,7 +118,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(25, 472);
+            this.label8.Location = new System.Drawing.Point(26, 462);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(200, 13);
             this.label8.TabIndex = 7;
@@ -128,7 +132,7 @@
             "2 - 4",
             "5 - 7",
             "7 o mas"});
-            this.comboBox1.Location = new System.Drawing.Point(28, 52);
+            this.comboBox1.Location = new System.Drawing.Point(29, 40);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(124, 21);
             this.comboBox1.TabIndex = 8;
@@ -141,7 +145,7 @@
             "2 - 4",
             "5 - 6",
             "7 o mas"});
-            this.comboBox2.Location = new System.Drawing.Point(28, 114);
+            this.comboBox2.Location = new System.Drawing.Point(29, 102);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(124, 21);
             this.comboBox2.TabIndex = 9;
@@ -154,7 +158,7 @@
             "2000 - 4000",
             "5000 - 6000",
             "7000 o mas"});
-            this.comboBox3.Location = new System.Drawing.Point(28, 179);
+            this.comboBox3.Location = new System.Drawing.Point(29, 167);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(124, 21);
             this.comboBox3.TabIndex = 10;
@@ -167,7 +171,7 @@
             "100 - 300",
             "300 - 500",
             "500 o mas"});
-            this.comboBox4.Location = new System.Drawing.Point(28, 240);
+            this.comboBox4.Location = new System.Drawing.Point(29, 228);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(124, 21);
             this.comboBox4.TabIndex = 11;
@@ -178,7 +182,7 @@
             this.comboBox5.Items.AddRange(new object[] {
             "Si",
             "No"});
-            this.comboBox5.Location = new System.Drawing.Point(28, 303);
+            this.comboBox5.Location = new System.Drawing.Point(29, 293);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(74, 21);
             this.comboBox5.TabIndex = 12;
@@ -189,7 +193,7 @@
             this.comboBox6.Items.AddRange(new object[] {
             "Media superior (Preparatoria)",
             "Superior (Universidad)"});
-            this.comboBox6.Location = new System.Drawing.Point(28, 366);
+            this.comboBox6.Location = new System.Drawing.Point(29, 356);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(124, 21);
             this.comboBox6.TabIndex = 13;
@@ -205,61 +209,77 @@
             "5",
             "6",
             "Otro"});
-            this.comboBox7.Location = new System.Drawing.Point(28, 429);
+            this.comboBox7.Location = new System.Drawing.Point(29, 419);
             this.comboBox7.Name = "comboBox7";
             this.comboBox7.Size = new System.Drawing.Size(74, 21);
             this.comboBox7.TabIndex = 14;
             // 
-            // textBox1
+            // controlsPanel
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 497);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(74, 20);
-            this.textBox1.TabIndex = 15;
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(333, 520);
-            this.panel1.TabIndex = 16;
+            this.controlsPanel.Controls.Add(this.comboBox8);
+            this.controlsPanel.Controls.Add(this.label1);
+            this.controlsPanel.Controls.Add(this.comboBox4);
+            this.controlsPanel.Controls.Add(this.comboBox3);
+            this.controlsPanel.Controls.Add(this.label5);
+            this.controlsPanel.Controls.Add(this.comboBox2);
+            this.controlsPanel.Controls.Add(this.comboBox7);
+            this.controlsPanel.Controls.Add(this.comboBox1);
+            this.controlsPanel.Controls.Add(this.label6);
+            this.controlsPanel.Controls.Add(this.label4);
+            this.controlsPanel.Controls.Add(this.comboBox6);
+            this.controlsPanel.Controls.Add(this.label3);
+            this.controlsPanel.Controls.Add(this.label7);
+            this.controlsPanel.Controls.Add(this.label2);
+            this.controlsPanel.Controls.Add(this.comboBox5);
+            this.controlsPanel.Controls.Add(this.label8);
+            this.controlsPanel.Location = new System.Drawing.Point(12, 12);
+            this.controlsPanel.Name = "controlsPanel";
+            this.controlsPanel.Size = new System.Drawing.Size(333, 520);
+            this.controlsPanel.TabIndex = 16;
             // 
             // finalizarButton
             // 
-            this.finalizarButton.Location = new System.Drawing.Point(114, 528);
+            this.finalizarButton.Location = new System.Drawing.Point(93, 538);
             this.finalizarButton.Name = "finalizarButton";
             this.finalizarButton.Size = new System.Drawing.Size(111, 37);
             this.finalizarButton.TabIndex = 17;
             this.finalizarButton.Text = "Finalizar";
             this.finalizarButton.UseVisualStyleBackColor = true;
+            this.finalizarButton.Click += new System.EventHandler(this.finalizarButton_Click);
             // 
-            // EconomicoForm
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "10-9",
+            "9-8",
+            "8-7",
+            "7-6",
+            "6-5",
+            "menor"});
+            this.comboBox8.Location = new System.Drawing.Point(29, 478);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(74, 21);
+            this.comboBox8.TabIndex = 15;
+            // 
+            // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(363, 577);
+            this.ClientSize = new System.Drawing.Size(358, 583);
             this.Controls.Add(this.finalizarButton);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox7);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
-            this.Name = "EconomicoForm";
+            this.Controls.Add(this.controlsPanel);
+            this.Name = "TestForm";
             this.Text = "Test";
+            this.Load += new System.EventHandler(this.TestForm_Load);
+            this.controlsPanel.ResumeLayout(false);
+            this.controlsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -280,8 +300,9 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
         private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel controlsPanel;
         private System.Windows.Forms.Button finalizarButton;
+        private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.ComboBox comboBox8;
     }
 }

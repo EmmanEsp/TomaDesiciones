@@ -11,6 +11,7 @@ namespace Becas.CRUD
 {
     class Read : DatabaseConnection
     {
+
         public List<string> getEntidad(string tabla, int clave)
         {
             try

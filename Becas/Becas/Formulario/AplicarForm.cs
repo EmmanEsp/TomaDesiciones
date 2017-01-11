@@ -9,13 +9,29 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Becas.CRUD;
 
-namespace Becas.Form
+namespace Becas.Formulario
 {
     public partial class AplicarForm : System.Windows.Forms.Form
     {
-        public AplicarForm()
+
+        Read read = new Read();
+        Alumno student = new Alumno();
+
+        public AplicarForm(Alumno userData)
         {
             InitializeComponent();
+            student = userData;
+            setData();
+        }
+
+        private void setData()
+        {
+            nombreLabel.Text = student.Nombre;
+            if (read.getEntidad("solicitudBeca", Convert.ToInt32(student.Id)) != null) {
+                statusLabel.Text = "Test realizado.";
+            } else{
+                statusLabel.Text = "Test sin realizar.";                
+            }
         }
 
         private void buscarButton_Click(object sender, EventArgs e)
@@ -26,11 +42,19 @@ namespace Becas.Form
         private void AplicarForm_Load(object sender, EventArgs e)
         {
 
-            Read read = new Read();
-            List<string> items = read.getAllAlumnos("alumno");
-            foreach(string item in items)
+        }
+
+        private void aplicarButton_Click(object sender, EventArgs e)
+        {
+            if (read.getEntidad("solicitudBeca", Convert.ToInt32(student.Id)) != null)
             {
-                buscarTextBox.AutoCompleteCustomSource.Add(item);
+                MessageBox.Show("Test ya se realizo.");
+            }
+            else
+            {
+                TestForm test = new TestForm(student);
+                test.ShowDialog();
+                setData();
             }
         }
     }

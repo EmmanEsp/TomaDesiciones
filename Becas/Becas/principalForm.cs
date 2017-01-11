@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Becas.Database;
 using Becas.Formulario;
-using Becas.Form;
 
 namespace Becas
 {
@@ -29,7 +28,7 @@ namespace Becas
 
         private void aplicarButton_Click(object sender, EventArgs e)
         {
-            AplicarForm apl = new AplicarForm();
+            AplicarForm apl = new AplicarForm(student);
             apl.ShowDialog();
         }
 
