@@ -13,6 +13,8 @@ namespace Becas.Formulario
 {
     public partial class LoginForm : System.Windows.Forms.Form
     {
+        private bool admin; 
+
         public LoginForm()
         {
             InitializeComponent();
@@ -30,12 +32,13 @@ namespace Becas.Formulario
                     {
                         items = read.getEntidadw2Parameters("alumno", "curp", userTextBox.Text,
                                                                         "password", passwordTextBox.Text, false);
-
+                        admin = false;
                     }
                     else
                     {
                         items = read.getEntidadw2Parameters("usuario", "id", userTextBox.Text,
                                                                         "password", passwordTextBox.Text, false);
+                        admin = true;
                     }
                     if (items == null)
                     {
@@ -44,7 +47,7 @@ namespace Becas.Formulario
                     }
                     else
                     {
-                        PrincipalForm principal = new PrincipalForm(items);
+                        PrincipalForm principal = new PrincipalForm(items, admin);
                         Hide();
                         principal.Show();
                     }

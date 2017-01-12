@@ -16,7 +16,8 @@ namespace Becas
     {
         Alumno student = new Alumno();
         Usuario user = new Usuario();
-        public PrincipalForm(List<string> userData)
+        private bool admin;
+        public PrincipalForm(List<string> userData, bool admins)
         {
             InitializeComponent();
             if (userData.Count > 3)
@@ -24,6 +25,8 @@ namespace Becas
                 student.setValues(userData);
             }
             else{ user.setValues(userData); }
+
+            admin = admins;
         }
 
         private void aplicarButton_Click(object sender, EventArgs e)
@@ -41,7 +44,17 @@ namespace Becas
 
         private void PrincipalForm_Load(object sender, EventArgs e)
         {
+            if (admin)
+            {
+                aplicarButton.Visible = false;
+                perfilButton.Visible = false;
 
+            }
+            else
+            {
+                registrarAlumnoButton.Visible = false;
+                aplicarButton.Location = new Point(40, 64);
+            }
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,6 +66,25 @@ namespace Becas
         {
             PerfilForm prfm = new PerfilForm(student);
             prfm.ShowDialog();
+        }
+
+        private void adminKgada(bool admin)
+        {
+
+        }
+
+        private void resultadosButton_Click(object sender, EventArgs e)
+        {
+            if (admin)
+            {
+                ResultadosForm rform = new ResultadosForm();
+                rform.ShowDialog();
+            }
+            else
+            {
+                ResultadosAlumnoForm raform = new ResultadosAlumnoForm(Convert.ToInt32(student.Id));
+                raform.ShowDialog();
+            }
         }
     }
 }

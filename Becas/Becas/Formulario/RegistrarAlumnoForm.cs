@@ -100,6 +100,7 @@ namespace Becas
             if (validarControles())
             {                
                 crud.Crear(columnas, getValues(), "alumno");
+                limpiarButton_Click(sender, e);
             }
         }
 

@@ -45,11 +45,15 @@
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.controlsPanel = new System.Windows.Forms.Panel();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.finalizarButton = new System.Windows.Forms.Button();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.regresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.controlsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -232,24 +236,10 @@
             this.controlsPanel.Controls.Add(this.label2);
             this.controlsPanel.Controls.Add(this.comboBox5);
             this.controlsPanel.Controls.Add(this.label8);
-            this.controlsPanel.Location = new System.Drawing.Point(12, 12);
+            this.controlsPanel.Location = new System.Drawing.Point(13, 29);
             this.controlsPanel.Name = "controlsPanel";
             this.controlsPanel.Size = new System.Drawing.Size(333, 520);
             this.controlsPanel.TabIndex = 16;
-            // 
-            // finalizarButton
-            // 
-            this.finalizarButton.Location = new System.Drawing.Point(93, 538);
-            this.finalizarButton.Name = "finalizarButton";
-            this.finalizarButton.Size = new System.Drawing.Size(111, 37);
-            this.finalizarButton.TabIndex = 17;
-            this.finalizarButton.Text = "Finalizar";
-            this.finalizarButton.UseVisualStyleBackColor = true;
-            this.finalizarButton.Click += new System.EventHandler(this.finalizarButton_Click);
-            // 
-            // errorProvider
-            // 
-            this.errorProvider.ContainerControl = this;
             // 
             // comboBox8
             // 
@@ -266,20 +256,64 @@
             this.comboBox8.Size = new System.Drawing.Size(74, 21);
             this.comboBox8.TabIndex = 15;
             // 
+            // finalizarButton
+            // 
+            this.finalizarButton.Location = new System.Drawing.Point(117, 555);
+            this.finalizarButton.Name = "finalizarButton";
+            this.finalizarButton.Size = new System.Drawing.Size(111, 37);
+            this.finalizarButton.TabIndex = 17;
+            this.finalizarButton.Text = "Finalizar";
+            this.finalizarButton.UseVisualStyleBackColor = true;
+            this.finalizarButton.Click += new System.EventHandler(this.finalizarButton_Click);
+            // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(358, 24);
+            this.menuStrip1.TabIndex = 18;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // archivoToolStripMenuItem
+            // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.regresarToolStripMenuItem});
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // regresarToolStripMenuItem
+            // 
+            this.regresarToolStripMenuItem.Name = "regresarToolStripMenuItem";
+            this.regresarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.regresarToolStripMenuItem.Text = "Regresar";
+            this.regresarToolStripMenuItem.Click += new System.EventHandler(this.regresarToolStripMenuItem_Click);
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(358, 583);
+            this.ClientSize = new System.Drawing.Size(358, 604);
             this.Controls.Add(this.finalizarButton);
             this.Controls.Add(this.controlsPanel);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "TestForm";
             this.Text = "Test";
             this.Load += new System.EventHandler(this.TestForm_Load);
             this.controlsPanel.ResumeLayout(false);
             this.controlsPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -304,5 +338,8 @@
         private System.Windows.Forms.Button finalizarButton;
         private System.Windows.Forms.ErrorProvider errorProvider;
         private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem regresarToolStripMenuItem;
     }
 }

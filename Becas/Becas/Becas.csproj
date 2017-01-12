@@ -63,6 +63,12 @@
     <Compile Include="Formulario\PerfilForm.Designer.cs">
       <DependentUpon>PerfilForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulario\ResultadosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\ResultadosForm.Designer.cs">
+      <DependentUpon>ResultadosForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulario\Usuario.cs" />
     <Compile Include="PrincipalForm.cs">
       <SubType>Form</SubType>
@@ -91,11 +97,20 @@
     <Compile Include="Formulario\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultadosAlumnoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultadosAlumnoForm.Designer.cs">
+      <DependentUpon>ResultadosAlumnoForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Formulario\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\PerfilForm.resx">
       <DependentUpon>PerfilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\ResultadosForm.resx">
+      <DependentUpon>ResultadosForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrincipalForm.resx">
       <DependentUpon>PrincipalForm.cs</DependentUpon>
@@ -117,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulario\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultadosAlumnoForm.resx">
+      <DependentUpon>ResultadosAlumnoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

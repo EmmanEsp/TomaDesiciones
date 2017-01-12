@@ -33,9 +33,8 @@ namespace Becas.CRUD
 
                     command.Parameters.AddWithValue("?" + columnas[i], valores[i]);
                 }
-
                 command.ExecuteNonQuery();
-
+                MessageBox.Show("Registro exitoso");
                 closeConnection();
                 return true;
             }

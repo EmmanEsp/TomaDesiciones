@@ -57,5 +57,10 @@ namespace Becas.Formulario
                 setData();
             }
         }
+
+        private void regresarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

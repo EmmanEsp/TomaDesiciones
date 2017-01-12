@@ -59,7 +59,7 @@ namespace Becas.Formulario
         {
             valores = new List<string>();
 
-            valores.Add("0");
+            valores.Add("1");
             valores.Add(student.Id);
             int puntos = 0;
 
@@ -86,7 +86,14 @@ namespace Becas.Formulario
             {
                 Create crud = new Create();
                 crud.Crear(columnas, getValues(), "solicitudBeca");
+                MessageBox.Show("Finalizado con éxito");
+                Close();
             }
+        }
+
+        private void regresarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
