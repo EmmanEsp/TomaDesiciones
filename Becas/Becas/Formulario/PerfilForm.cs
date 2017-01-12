@@ -63,7 +63,7 @@ namespace Becas.Formulario
         {
             try
             {
-                if (validarControles())
+                if (validarControles(controlsPanel))
                 {
                     updateButton.Visible = false;
                     crUd.updateEntidad(columnas, getValues(), "alumno", student.Id);
@@ -78,11 +78,11 @@ namespace Becas.Formulario
             }
         }
 
-        private bool validarControles()
+        private bool validarControles(Panel controles)
         {
             errorProvider.Clear();
             bool continuar = true;
-            foreach (Control control in controlsPanel.Controls)
+            foreach (Control control in controles.Controls)
             {
                 if (control is TextBox & control.Text == string.Empty)
                 {
@@ -158,6 +158,32 @@ namespace Becas.Formulario
         {
             contraseñaPanel.Visible = true;
             actualizarButton.Visible = true;
+        }
+
+        private void actualizarButton_Click(object sender, EventArgs e)
+        {
+            if (validarControles(contraseñaPanel))
+            {
+                if (anteriorTextBox.Text == student.Password)
+                {
+                    if(passwordTextBox.Text == confirmarTextBox.Text)
+                    {
+                        crUd.updatePassword(confirmarTextBox.Text, student.Id);
+                        anteriorTextBox.Clear();
+                        passwordTextBox.Clear();
+                        confirmarTextBox.Clear();
+                        actualizarButton.Visible = false;
+                        contraseñaPanel.Visible = false;
+                        student.setValues(cRud.getEntidad("alumno", Convert.ToInt32(student.Id)));
+                    }
+                    else
+                    {
+                        errorProvider.SetError(confirmarTextBox, "Contraseñas no coinciden");
+                        errorProvider.SetError(passwordTextBox, "Contraseñas no coinciden");
+                    }
+                }
+                else { errorProvider.SetError(anteriorTextBox, "Contraseña Incorrecta"); }
+            }
         }
     }
 }

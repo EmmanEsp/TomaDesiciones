@@ -38,6 +38,21 @@ namespace Becas.CRUD
             }
 
         }
-        
+
+
+        public bool updatePassword(string nuevapass, string id)
+        {
+            try
+            {
+                string query = "UPDATE alumno SET password='" + nuevapass + "' where id=" + Convert.ToInt32(id) +";";
+                MySqlCommand command = new MySqlCommand(query, openConnection());
+                command.ExecuteNonQuery();
+                closeConnection();
+                MessageBox.Show("Actualizado con éxito!");
+                return true;
+            }
+            catch (Exception)
+            { return false; }
+        }
     }
 }

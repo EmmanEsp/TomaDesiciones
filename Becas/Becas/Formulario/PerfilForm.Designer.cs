@@ -404,6 +404,7 @@
             // 
             this.anteriorTextBox.Location = new System.Drawing.Point(12, 30);
             this.anteriorTextBox.Name = "anteriorTextBox";
+            this.anteriorTextBox.PasswordChar = 'X';
             this.anteriorTextBox.Size = new System.Drawing.Size(138, 20);
             this.anteriorTextBox.TabIndex = 56;
             // 
@@ -420,6 +421,7 @@
             // 
             this.passwordTextBox.Location = new System.Drawing.Point(168, 30);
             this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.PasswordChar = 'X';
             this.passwordTextBox.Size = new System.Drawing.Size(138, 20);
             this.passwordTextBox.TabIndex = 58;
             // 
@@ -427,6 +429,7 @@
             // 
             this.confirmarTextBox.Location = new System.Drawing.Point(326, 30);
             this.confirmarTextBox.Name = "confirmarTextBox";
+            this.confirmarTextBox.PasswordChar = 'X';
             this.confirmarTextBox.Size = new System.Drawing.Size(138, 20);
             this.confirmarTextBox.TabIndex = 59;
             // 
@@ -448,6 +451,7 @@
             this.actualizarButton.Text = "Actualizar Contraseña";
             this.actualizarButton.UseVisualStyleBackColor = true;
             this.actualizarButton.Visible = false;
+            this.actualizarButton.Click += new System.EventHandler(this.actualizarButton_Click);
             // 
             // contraseñaPanel
             // 
